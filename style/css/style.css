@@ -10,16 +10,19 @@ a {
 small {
     font-size: 12px;
 }
-cite{
+
+cite {
     font-style: normal;
     font-size: 14px;
     font-family: arial, sans-serif;
 }
-em{
+
+em {
     font-style: normal;
     font-weight: bold;
 }
-.rounded-3{
+
+.rounded-3 {
     border-radius: 7px !important;
 }
 
@@ -32,17 +35,20 @@ em{
     z-index: 10;
 }
 
-.searchInput{
+.searchInput {
     height: 48px;
     box-shadow: 0 1px 5px 0 #d6d6d6;
 }
-.searchInput:hover{
+
+.searchInput:hover {
     box-shadow: 1px 1px 6px 1px #c6c6c6;
 }
-.searchInput i{
+
+.searchInput i {
     color: #4285f4;
 }
-.fa-microphone{
+
+.fa-microphone {
     line-height: 30px;
 }
 
@@ -50,14 +56,17 @@ em{
     font-size: 14px;
 
 }
-.menu i, .menu span, .menu a{
+
+.menu i, .menu span, .menu a {
     color: #5f6368;
 }
+
 .menu a.active i,
-.menu a.active span{
+.menu a.active span {
     color: #4285f4;
 }
-.menu a.active:after{
+
+.menu a.active:after {
     content: "";
     background-color: #4285f4;
     position: absolute;
@@ -72,10 +81,11 @@ em{
     white-space: nowrap;
     overflow: hidden;
 }
+
 .webDescription span,
 .webDescription em,
 .abstract span,
-.abstract em{
+.abstract em {
     color: #5f6368;
 }
 
@@ -84,7 +94,8 @@ em{
     font-weight: 400;
     margin-bottom: 4px;
 }
-.websiteTitle .btn-group{
+
+.websiteTitle .btn-group {
     margin-top: -3px;
 }
 
@@ -199,10 +210,12 @@ button.viewMore {
 .accordion-body .websiteTitle {
     margin-bottom: 30px;
 }
-.review{
+
+.review {
     font-family: arial, sans-serif;
 }
-.sameMovie{
+
+.sameMovie {
     width: 72px;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -397,7 +410,8 @@ button.viewMore {
     text-align: center;
     padding: 0;
 }
-.pageItem a{
+
+.pageItem a {
     height: 55px;
     justify-content: space-between;
 }
@@ -427,19 +441,24 @@ button.viewMore {
     background: url("../../img/googlelogo.png") -31px -9px;
     background-size: 122px;
 }
-.nextPageLogo{
+
+.nextPageLogo {
     width: 75px;
     height: 25px;
 }
-.nextPageLogo span:last-child{
+
+.nextPageLogo span:last-child {
     top: -4px;
 }
+
 .fa-chevron-right, .next, .pageItem a span:last-child {
     color: #4285f4;
 }
+
 .next:hover, .pageItem a span:last-child:hover {
     text-decoration: underline;
 }
+
 .logo {
     background: url(../../img/googlelogo.png) -73px 0px;
     background-size: 122px;
@@ -449,10 +468,12 @@ button.viewMore {
     top: -12px;
     left: 0;
 }
-.pageItem a span:last-child{
+
+.pageItem a span:last-child {
     font-size: 14px;
 }
-.next{
+
+.next {
     font-size: 14px;
     margin-top: 3px;
 }
